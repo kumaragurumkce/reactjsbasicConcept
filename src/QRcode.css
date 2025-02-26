@@ -1,0 +1,25 @@
+button{
+    background-color: aquamarine;
+    padding: 5px 25px;
+    margin-top: 10px;
+}
+
+.download{
+    margin-left: 20px;
+}
+.input-label{
+    display: block;
+    margin-bottom: 8px;
+}
+input[type="text"]{
+    padding: 12px;
+    display: block;
+    width: 450px;
+    max-width: 100%;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.generate:disabled{
+background-color: aliceblue;
+cursor: not-allowed;
+}
